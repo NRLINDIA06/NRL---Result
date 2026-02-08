@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NRL GET Result 2025</title>
+</head>
+
+<body style="font-family:Arial; text-align:center; margin-top:100px;">
+
+<h2>NRL GET Examination Result 2025</h2>
+<p>Enter Credentials</p>
+
+<input type="text" id="user" placeholder="Username"><br><br>
+<input type="password" id="pass" placeholder="Password"><br><br>
+
+<button onclick="openResult()">Login</button>
+
+<script>
+function openResult() {
+  var u = document.getElementById("user").value;
+  var p = document.getElementById("pass").value;
+
+  if (u === "16830088290" && p === "520242510925") {
+    window.location.href = "NRL%20Result.pdf";
+  } else {
+    alert("Invalid Username or Password");
+  }
+}
+</script>
+
+</body>
+</html>
